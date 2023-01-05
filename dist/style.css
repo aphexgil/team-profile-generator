@@ -32,7 +32,7 @@ header{
 
 .container{
     background-color: beige;
-    width: 1000px;
+    width: 1300px;
     margin: 50px auto;
     background-color: aliceblue;
 }
@@ -43,6 +43,20 @@ header{
 
 .employee-card{
     margin: 10px;
-    background-color: brown;
 }
 
+.card-header{
+    background-color: brown;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+}
+
+.card-body{
+    background-color: goldenrod;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+}

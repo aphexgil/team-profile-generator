@@ -116,6 +116,12 @@ async function init(){
     }
 
     const html = generateHTML(employees);
+    fs.writeFile('./dist/index.html', html, err => {
+        if (err) {
+          console.error(err);
+        }
+        console.log("Your HTML page is in /dist.");
+      });
 }
 
 init();
