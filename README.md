@@ -22,7 +22,7 @@ A command-line utility which generates an HTML team profile page based on user i
 
 ## Video
 
-Click [here]() to see a walkthrough video demonstrating project's functionality.
+Click [here](https://drive.google.com/file/d/1JA7mHqxMRIliG92iHedQVxFBYPt9HyDA/view?usp=sharing) to see a walkthrough video demonstrating project's functionality.
 
 ## Installation
 
