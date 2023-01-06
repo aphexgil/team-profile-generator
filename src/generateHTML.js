@@ -32,7 +32,8 @@ function generateHTML(employees){
         <div class="card-body">
             <ul>
                 <li>ID: ${employees[i].getId()}</li>
-                <li>Email: <a href="mailto:${employees[i].getEmail()}">${employees[i].getEmail()}</a></li>`;
+                <li>Email: <a href="mailto:${employees[i].getEmail()}">${employees[i].getEmail()}</a></li>
+                `;
         if(employees[i].getRole()=='Manager'){
             HTML += `<li>Office Number: ${employees[i].getOfficeNumber()}</li>
                     </ul>
